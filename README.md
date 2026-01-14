@@ -96,7 +96,7 @@ role, then opan a **pull request** on GitHub.
 ```bash
 git add . # Stage all changes
 git commit -m "Describe your changes." # Commits
-git push -u origin feature/modelling # Push the new branch to Git.
+git switch -c feature/modelling # Push the new branch to Git.
 ```
 While adding commtit descriptions please use convertional commits.
 
