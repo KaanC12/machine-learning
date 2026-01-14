@@ -1,4 +1,5 @@
-# Machine Learning
+# Machine Learning
+
 The focus of the project is model training, evaluation, and real-world prediction. Due to time constraints, the dataset will be selected from Kaggle. The most challenging part of building an AI system, which is data preparation, will be handled automatically. In the next step, the model will be trained, and each stage of the process, including evaluation and random seed selection, will be demonstrated. 
 
 ### TO-DO List
