@@ -88,6 +88,9 @@ wein
 
 
 ### TO-DO List
+1. Visualize dataset
+2. AI
+3. Visualize AI output
 
 ### Push To Repository
 Please do NOT push directyl to the `main` branch. Create a new branch based on your
@@ -97,6 +100,7 @@ role, then opan a **pull request** on GitHub.
 git add . # Stage all changes
 git commit -m "Describe your changes." # Commits
 git switch -c feature/modelling # Push the new branch to Git.
+git push -u feature/modelling
 ```
 While adding commtit descriptions please use convertional commits.
 
