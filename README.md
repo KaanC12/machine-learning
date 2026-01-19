@@ -92,6 +92,14 @@ wein
 2. AI
 3. Visualize AI output
 
+##### data
+1. Load -> K
+2. Split -> K
+3. Clean -> K
+4. Feature -> V
+5. Encoders -> V
+6. Tasters -> V
+
 ### Push To Repository
 Please do NOT push directyl to the `main` branch. Create a new branch based on your
 role, then opan a **pull request** on GitHub.
