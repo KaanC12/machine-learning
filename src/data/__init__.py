@@ -1,3 +1,1 @@
-from .load import (
-    get_columns
-)
+from . import load
