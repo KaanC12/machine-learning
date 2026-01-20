@@ -7,6 +7,9 @@ WORKDIR /app
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 
+# Data Path
+ENV DATA_PATH=/app/database/winemag-data-130k-v2.csv
+
 # Copy requirements
 COPY requirements.txt .
 
