@@ -35,4 +35,4 @@ def get_top_rated_wines_by_sommelier(sommelier_name: str, n=10) -> list[int]:
     df = _load_database(index_col="taster_name")
     if not _is_sommelier_present(sommelier_name):
         raise ValueError("There is not such a sommelier.")
-    return df.loc[sommelier_name, "points"].sort_values().head(10).to_list()
+    return df.loc[sommelier_name, "points"].sort_values().head(n).to_list()
