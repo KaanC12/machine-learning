@@ -110,6 +110,12 @@ git commit -m "Describe your changes." # Commits
 git switch -c feature/modelling # Push the new branch to Git.
 git push -u origin feature/modelling
 ```
+After the changes was pushed and merge, you can change branches following:
+
+```bash
+git checkout <branch_name> # It changes the branches.
+git pull # update the new changes.
+```
 While adding commtit descriptions please use convertional commits.
 
 ```
