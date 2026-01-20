@@ -10,3 +10,12 @@ def get_columns() -> list[str]:
     return df.columns.to_list()
 
 
+def get_sommelier_info(sommelier_name: str) -> list[str]:
+    df = load_database(index_col="taster_name")
+    tasters = df.index.to_list()
+    if sommelier_name not in tasters:
+        raise RuntimeError("There is not such a sommelier")
+    
+    return df.loc[sommelier_name].to_list()
+
+    
