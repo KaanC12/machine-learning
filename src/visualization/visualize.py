@@ -1,22 +1,28 @@
 import matplotlib.pyplot as plt
 from data.load import get_columns, get_feature_info
 
-
+# Visualizes the dataset.
 def visualize_dataset():
-    print(get_columns())
+    features = get_columns()
+    print(features[1:])
 
     countries = get_feature_info("country")
 
     names = []
     counts = []
 
-    for c in countries:
-        if c in names:
-            i = names.index(c)
+    for country in countries:
+
+        if country != country:
+            continue
+
+        if country in names:
+            i = names.index(country)
             counts[i] = counts[i] + 1
         else:
-            names.append(c)
+            names.append(country)
             counts.append(1)
+    
 
     plt.bar(names, counts)
     plt.title("Wine Count by Country")
@@ -39,6 +45,3 @@ def visualize_dataset():
     plt.hist(clean_prices, bins=30)
     plt.title("Wine Prices")
     plt.show()
-
-
-visualize_dataset()
