@@ -1,1 +1,1 @@
-from . import load, split
+from . import load, split, encode
