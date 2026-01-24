@@ -1,0 +1,3 @@
+# Report
+
+The objective of this project is to build a neural network that can make predictions according to background of sommeliers. Due to the inharently assessments, the model reflects the cultural background of a sommelier. Although, the dataset was collected to predict the quality of a wine bottle, the model cannot ontologically make predictions about the quality of a wine bottle. Moreover, the assessments do not represent objective quality, while they can be still used for product promotion. This report outlines the dataset, visualizing the dataset, feature encoding, and neural network work flow. 
