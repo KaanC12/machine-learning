@@ -32,7 +32,7 @@ def visualize_dataset():
     points = get_feature_info("points")
 
     plt.hist(points, bins=20)
-    plt.title("Wine Ratings")
+    plt.title("Wine Ratings Distribution")
     plt.show()
 
     prices = get_feature_info("price")
@@ -45,3 +45,4 @@ def visualize_dataset():
     plt.hist(clean_prices, bins=30)
     plt.title("Wine Prices")
     plt.show()
+
