@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from data.load import get_columns, get_feature_info
+from src.data.load import get_columns, get_feature_info
 
 # Visualizes the dataset.
 def visualize_dataset():
