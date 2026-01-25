@@ -1,4 +1,5 @@
 from data import clean, encode
+import pandas as pd
 
 FEATURE_COLUMNS = [
     "country",
@@ -6,7 +7,7 @@ FEATURE_COLUMNS = [
     "region_1",
     "region_2",
     "variety",
-    "winery",
+    "winery"
 ]
 
 def implement_encode(taster_name: str):
