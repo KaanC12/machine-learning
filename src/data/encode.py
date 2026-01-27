@@ -3,7 +3,8 @@ from data import load
 # Finds the numberical values of each features.
 def _get_numerical_values(index_col: str, feature: str) -> list:
     df = load._load_database(index_col)
-    n = len(df.loc[feature])
+    rows = df.loc[[feature]]
+    n = len(rows)
     total = df.loc[feature, "points"].sum()
 
     return [feature, float(total / n)]
@@ -56,8 +57,8 @@ def get_mean_encoding():
     features["province"] = feature_province
     features["region_1"] = feature_region_1
     features["region_2"] = feature_region_2
-    features["variety"] = variety
-    features["price"] = price
-    features["winery"] = winery
+    features["variety"] = feature_variety
+    features["price"] = feature_price
+    features["winery"] = feature_winery
 
     return features
