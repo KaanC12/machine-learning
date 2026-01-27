@@ -1,6 +1,6 @@
 import pandas as pd
 import pytest
-import data.load as load
+from data import load
 
 @pytest.fixture
 def fake_df():
